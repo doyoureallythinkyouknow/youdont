@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  position: relative;
+
+  input {
+    resize: none;
+    margin-right: 10px;
+  }
+
+  button {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+  form {
+    display: flex;
+  }
+
+  img {
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+
+  .indicator {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+  }
+
+  .green {
+    background: yellowgreen;
+  }
+
+  .red {
+    background: red;
+  }
+}

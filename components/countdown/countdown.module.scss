@@ -1,0 +1,29 @@
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+  }
+}
+
+.time {
+  font-size: 36px;
+  margin: 60px 0;
+}
+
+.instructions {
+  text-align: center;
+  max-width: 70%;
+  margin: 30px 0;
+}
+
+.code {
+  color: red;
+}
